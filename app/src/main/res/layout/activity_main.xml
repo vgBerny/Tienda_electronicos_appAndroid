@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clic sobre el producto para ver el precio"
+                    android:textSize="16sp" />
+
+                <ListView
+                    android:id="@+id/lvContenido"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selecciones los productos deseados:"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prosesadores" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tarjeta Madre" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memoria RAM" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tajetas de video" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Almacenamiento" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enfriamiento" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fuentes de poder" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cases" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ventiladores" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Monitores" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reguladores y UPS" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Escritorios" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sillas" />
+
+                <CheckBox
+                    android:id="@+id/chkProducto13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Controles" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seleccione el tipo de retiro:"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/rdGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rbEnvio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Envio de producto" />
+
+                    <RadioButton
+                        android:id="@+id/rbSucursal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sucursal" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnVerificar"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="VERIFICAR" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
